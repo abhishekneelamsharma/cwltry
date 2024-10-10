@@ -178,14 +178,14 @@ const Login = () => {
                           placeholder='Password'
                         />
                       </Form.Item>
-                      <Recaptcha onChange={handleRecaptchaChange} />
+                      {/* <Recaptcha onChange={handleRecaptchaChange} /> */}
                       <Form.Item className='login-input mt-4'>
                         <Button
                           type='primary'
                           htmlType='submit'
                           className='login-form-button'
                           loading={loading}
-                          disabled={!Boolean(recaptcha)}
+                          // disabled={!Boolean(recaptcha)}
                         >
                           {t('Login')}
                         </Button>
