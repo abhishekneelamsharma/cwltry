@@ -92,7 +92,7 @@ import { BiCategoryAlt, BiMapPin } from 'react-icons/bi';
 import { GiPayMoney } from 'react-icons/gi';
 import { GrAppleAppStore } from 'react-icons/gr';
 import { TbBrandAirtable } from 'react-icons/tb';
-import {BiKnife} from 'react-icons/bi';
+// import {BiKnife} from 'react-icons/bi';
 
 export default function getSystemIcons(icon) {
   switch (icon) {
@@ -286,8 +286,8 @@ export default function getSystemIcons(icon) {
       return <QrcodeOutlined />;
     case 'QuestionCircleOutlined':
       return <QuestionCircleOutlined />;
-    case 'knife':
-      return <BiKnife />;
+    // case 'knife':
+      // return <BiKnife />;
     default:
       break;
   }
